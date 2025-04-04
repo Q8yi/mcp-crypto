@@ -1,5 +1,6 @@
 //import { DebugContracts } from "./_components/DebugContracts";
 import type { NextPage } from "next";
+import ChatInterface from "~~/app/chatbot/_components/ChatInterface";
 import { getMetadata } from "~~/utils/scaffold-eth/getMetadata";
 
 export const metadata = getMetadata({
@@ -15,7 +16,7 @@ const Chatbot: NextPage = () => {
         <p className="text-neutral">
           Blockchain Transactions with a simple message
           <br />
-          <code className="italic bg-base-300 text-base font-bold [word-spacing:-0.5rem] px-1">----</code>{" "}
+          <ChatInterface />
         </p>
       </div>
     </>
