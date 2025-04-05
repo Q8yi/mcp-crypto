@@ -16,8 +16,8 @@ const Chatbot: NextPage = () => {
         <p className="text-neutral">
           Blockchain Transactions with a simple message
           <br />
-          <ChatInterface />
         </p>
+        <ChatInterface />
       </div>
     </>
   );
